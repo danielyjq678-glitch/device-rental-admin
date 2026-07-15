@@ -1,7 +1,5 @@
 // ============================================================
-// API 配置文件 — 部署 GitHub Pages 时需要修改此文件
+// API 配置文件 — 后端 ngrok 公网地址（本地服务器隧道）
 // ============================================================
-// API_BASE: CloudRun 后端地址（末尾不要带斜杠）
-// 在 CloudBase 控制台 → 云托管 → device-rental-admin → 访问路径中查看
-window.API_BASE = 'https://YOUR_CLOUDRUN_DOMAIN.tcb.run';
+window.API_BASE = 'https://tribesman-designing-single.ngrok-free.dev';
 // ============================================================
