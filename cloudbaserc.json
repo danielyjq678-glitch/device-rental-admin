@@ -1,0 +1,19 @@
+{
+  "envId": "cloud1-d0gtbh90x8d74a386",
+  "name": "device-rental-admin",
+  "description": "数码设备租赁 - 商家管理后台",
+  "containerPort": 3000,
+  "envParams": {
+    "CLOUD_ENV": "cloud1-d0gtbh90x8d74a386",
+    "CLOUD_SECRET_ID": "YOUR_CLOUD_SECRET_ID",
+    "CLOUD_SECRET_KEY": "YOUR_CLOUD_SECRET_KEY",
+    "ADMIN_PASSWORD": "YOUR_ADMIN_PASSWORD",
+    "BRANCH_ADMINS": "school_name1:password1;school_name2:password2"
+  },
+  "minNum": 1,
+  "maxNum": 2,
+  "cpu": 0.5,
+  "mem": 1,
+  "policyType": "cpu",
+  "policyThreshold": 80
+}
